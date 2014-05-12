@@ -1,0 +1,6 @@
+[submodule "gcc.git"]
+	path = gcc.git
+	url = monamour@git.sourceforge.jp:/gitroot/pf3gnuchains/gcc-fork.git
+[submodule "gcc-deplibs.git"]
+	path = gcc-deplibs.git
+	url = https://bitbucket.org/pizzafactory/gcc-deplibs.git

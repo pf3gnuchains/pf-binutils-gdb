@@ -457,6 +457,10 @@ mips*el-sde-elf*)	targ_emul=elf32ltsmip
 mips*-sde-elf* | mips*-mti-elf*)
 			targ_emul=elf32btsmip
 			targ_extra_emuls="elf32ltsmip elf32btsmipn32 elf64btsmip elf32ltsmipn32 elf64ltsmip" ;;
+mips*el-*-toppers*)	targ_emul=elf32ltsmipn32
+			targ_extra_emuls="elf32btsmipn32 elf32ltsmip elf64ltsmip elf32btsmip elf64btsmip" ;;
+mips*-*-toppers*)	targ_emul=elf32btsmipn32
+			targ_extra_emuls="elf32ltsmipn32 elf32btsmip elf64btsmip elf32ltsmip elf64ltsmip" ;;
 mips64*el-ps2-elf*)	targ_emul=elf32lr5900n32
 			targ_extra_emuls="elf32lr5900"
 			targ_extra_libpath=$targ_extra_emuls ;;
