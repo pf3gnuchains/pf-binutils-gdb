@@ -24,7 +24,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <assert.h>
 
-#if defined (__GNUC__) && ! defined (SEMOPS_DEFINE_INLINE)
+#if defined (__clang__)
+#ifndef SEMOPS_DEFINE_INLINE
+#define SEMOPS_DEFINE_INLINE
+#endif
+#define SEMOPS_INLINE static inline
+#elif defined (__GNUC__) && ! defined (SEMOPS_DEFINE_INLINE)
 #define SEMOPS_DEFINE_INLINE
 #define SEMOPS_INLINE extern inline
 #else

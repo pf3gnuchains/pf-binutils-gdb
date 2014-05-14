@@ -20,7 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
 #ifndef CGEN_MEM_H
 #define CGEN_MEM_H
 
-#ifdef MEMOPS_DEFINE_INLINE
+#if defined (__clang__)
+#define MEMOPS_INLINE static inline
+#elif defined (MEMOPS_DEFINE_INLINE)
 #define MEMOPS_INLINE
 #else
 #define MEMOPS_INLINE extern inline

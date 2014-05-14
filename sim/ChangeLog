@@ -1,3 +1,9 @@
+2014-05-14  Muranaka Masaki  <monaka@monami-software.com>
+
+	* common/cgen-mem.h: Fix linkage errors in Clang
+	* common/cgen-ops.h: Ditto.
+	* common/sim-arange.h: Ditto.
+
 2014-03-12  Nick Clifton  <nickc@redhat.com>
 
 	* MAINTAINERS: Add myself as the maintainer for the MSP430.
