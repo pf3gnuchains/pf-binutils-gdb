@@ -64,9 +64,11 @@ libgomp
 libjava
 libmudflap
 libobjc
+libquadmath
 libssp
 libstdc++-v3
 libtool-ldflags
+lto-plugin
 maintainer-scripts
 mpc
 mpfr
