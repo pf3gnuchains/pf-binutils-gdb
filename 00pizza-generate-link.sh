@@ -27,3 +27,5 @@ ln -s gcc.git/zlib
 ln -s gcc-deplibs.git/gmp
 ln -s gcc-deplibs.git/mpc
 ln -s gcc-deplibs.git/mpfr
+ln -s newlib.git/libgloss
+ln -s newlib.git/newlib

@@ -60,6 +60,7 @@ libcpp
 libffi
 libgcc
 libgfortran
+libgloss
 libgomp
 libjava
 libmudflap
@@ -72,4 +73,5 @@ lto-plugin
 maintainer-scripts
 mpc
 mpfr
+newlib
 zlib

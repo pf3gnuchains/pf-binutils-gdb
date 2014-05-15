@@ -4,3 +4,6 @@
 [submodule "gcc-deplibs.git"]
 	path = gcc-deplibs.git
 	url = https://bitbucket.org/pizzafactory/gcc-deplibs.git
+[submodule "newlib.git"]
+	path = newlib.git
+	url = git://sourceware.org/git/newlib.git
